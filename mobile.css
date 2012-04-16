@@ -1,0 +1,178 @@
+
+
+.AboutPanel .label * {
+	overflow: visible;
+	text-overflow: inherit;
+}
+
+.SliderPanel {
+	width: 100%;
+	min-height: 416px;
+}
+
+.panel {
+	padding: 10px;
+	border-bottom: 1px solid rgb(217, 217, 217);
+	table-layout: fixed;
+	position: relative;
+}
+
+.panel * {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.label table {
+	table-layout: fixed;
+}
+
+.label {
+	border-bottom: 1px solid rgb(217, 217, 217);
+	padding-right: 35px;
+}
+
+.field div {
+	display: inline;
+}
+
+.field input {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index: 10;
+}
+
+.aboutLabel {
+	margin-left: -5px;
+}
+
+.button {
+	height: 29px;
+	line-height: 29px;
+}
+
+.articleContents * {
+	font-size: 11pt;
+	font-weight: normal;
+	white-space: normal;
+}
+
+.header {
+	height: 44px;
+	width: 100%;
+	padding: 10px;
+}
+
+.last {
+	padding-bottom: 14px !important;
+}
+
+.logo {
+	float: left;
+	width: 91px;
+	height: 75px;
+}
+
+.snippit {
+	font-size: 11pt;
+	line-height: 11pt;
+	height: 33pt;
+	padding-left: 4px;
+	white-space: normal;
+}
+
+img {
+	max-width: 95%;
+}
+
+* {
+	font-family: Helvetica sans-serif;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+.SliderPanel {
+	background: white;
+}
+
+.FeedSelectPanel b {
+	font-size: inherit !important;
+	font-weight: inherit !important;
+}
+
+.backButton {
+	border-width: 0 8px 0 14px;
+	-webkit-border-image: url('mobile.img/iPhoneBackButton.png') 0 8 0 14;
+}
+
+.goButton {
+	border-width: 0 5px;
+	-webkit-border-image: url('mobile.img/iPhoneButton2.png') 0 5 0 5;
+}
+
+.button {
+	cursor: pointer;
+	font-size: 10pt;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.busy {
+	background: url('mobile.img/spinner.gif') no-repeat right !important;
+}
+
+.externalLink {
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.hasCommand {
+	background: url('mobile.img/iPhoneArrow.png') no-repeat right;
+	cursor: pointer;
+}
+
+.header {
+	color: white;
+	vertical-align: middle;
+	background: url('mobile.img/iPhoneToolbar2.png') repeat-x;
+}
+
+.title {
+	clear: both;
+}
+
+.snippit {
+	font-weight: normal;
+}
+
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+.refresh {
+	width: 32px;
+	background: url('mobile.img/refresh_24.png') no-repeat center;
+}
+
+.prev {
+    width: 32px;
+    background: url('mobile.img/prev_24.png') no-repeat center;
+}
+
+.next {
+	width: 32px;
+	background: url('mobile.img/next_24.png') no-repeat center;
+}
+
+.Finalizado {
+	color: green;
+}
+
+.edit-primary {
+    background-color: #FFF299;
+}
+

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link type="text/css" rel="stylesheet" href="mobile.css">
+<title>MobileVending</title>
+<style>
+#loading {
+	padding: 2px;
+	z-index: 20001;
+	height: auto;
+	border: 1px solid #ccc;
+}
+
+#loading a {
+	color: #225588;
+}
+
+#loading .loading-indicator {
+	background: white;
+	color: #444;
+	font: bold 13px tahoma, arial, helvetica;
+	padding: 10px;
+	margin: 0;
+	height: auto;
+}
+
+#loading .loading-indicator img {
+	margin-right: 8px;
+	float: left;
+	vertical-align: top;
+}
+
+#loading-msg {
+	font: normal 10px tahoma, arial, helvetica;
+}
+#wu-wrapper{ position: absolute; top:0; right:0; width: 90px; height:10px; border: 0px; margin-right:5px; overflow:hidden;}
+#wumeter{ width: 90px; height:10px; background-image: url(mobile.img/wumeter.gif); }
+</style>
+</head>
+<body>
+	<div id="loading">
+		<div class="loading-indicator">
+			<img src="gxt/images/default/shared/large-loading.gif" width="32" height="32" />Cargando MobileVending 0.21<br /> <span
+				id="loading-msg">Por favor espere...</span>
+		</div>
+	</div>
+<script type="text/javascript" language="javascript" src="_mobile/_mobile.nocache.js"></script>
+</body>
+</html>
